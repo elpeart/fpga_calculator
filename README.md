@@ -5,9 +5,13 @@ The switches are used to set the inputs and determine which operation will be pe
 The calculator takes an 8 bit signed input in twos compliment form and outputs a 16 bit value in twos compliment form.
 
 SW[9..8] select the operation as follows
+
 	00	addition
+	
 	01	subtraction
+	
 	10	multiplication
+	
 	11	division
 
 SW[7..0] and KEY 0 are used to set the inputs with the users setting the switches to the desired input then depressing KEY 0.
